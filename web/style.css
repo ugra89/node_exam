@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100px;
+  max-height: auto;
+}
+div {
+  align-items: center;
+}
+#logo {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+p {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+h4 {
+  color: rgb(74, 71, 71);
+  margin-bottom: 10px;
+}
+h5 {
+  color: gray;
+}
+#btn-register {
+  padding: 5px 10px;
+  background-color: white;
+  width: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#btn-login {
+  border: none;
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
